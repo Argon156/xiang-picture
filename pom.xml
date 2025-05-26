@@ -162,8 +162,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.xiangzi.xiangpicturebackend.XiangPictureBackendApplication</mainClass>
-                    <skip>true</skip>
+                    <mainClass>com.xiangzi.xiangpicture.XiangPictureBackendApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>

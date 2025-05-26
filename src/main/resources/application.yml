@@ -55,10 +55,9 @@ spring:
             type: CLASS_BASED
             props:
               strategy: standard
-              algorithmClassName: com.xiangzi.xiangpicturebackend.manager.sharding.PictureShardingAlgorithm
+              algorithmClassName: com.xiangzi.xiangpicture.shared.sharding.PictureShardingAlgorithm
     props:
       sql-show: true
-
 #  profiles:
 #    active: local
 
@@ -85,7 +84,7 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.xiangzi.xiangpicturebackend.controller
+          - com.xiangzi.xiangpicture.interfaces.controller
 
 # 阿里云 AI 配置
 aliYunAi:
