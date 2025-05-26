@@ -12,7 +12,7 @@ spring:
     name: xiang-picture-backend
   # 数据库配置
   datasource:
-    url: jdbc:mysql://localhost:3306/xiang_picture
+    url: jdbc:mysql://localhost:3306/xiang_picture #数据库地址替换为您实际的地址
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -88,4 +88,4 @@ knife4j:
 
 # 阿里云 AI 配置
 aliYunAi:
-  apiKey: 
+#  apiKey: your_api_key_here，请将此处替换为您申请的API Key
